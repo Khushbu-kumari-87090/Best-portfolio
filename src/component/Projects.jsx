@@ -29,6 +29,10 @@ const Projects = () => {
           <h3>Machine Learning for Epilepsy Detection</h3>
           <p>Using ML algorithms like SVM and KNN to detect epilepsy from EEG data.</p>
         </ProjectCard>
+        <ProjectCard>
+          <h3>Fitness App</h3>
+          <p>Using ML algorithms like SVM and KNN to detect epilepsy from EEG data.</p>
+        </ProjectCard>
       </div>
     </ProjectsContainer>
   );

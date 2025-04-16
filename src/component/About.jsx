@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'; 
-import myPhoto from '../image/img.jpg'; // Update this with the correct path to your photo
+import myPhoto from '../image/yoga.avif'; // Update this with the correct path to your photo
 
 const About = () => {
   return (
