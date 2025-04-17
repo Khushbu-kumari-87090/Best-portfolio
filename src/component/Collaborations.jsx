@@ -28,13 +28,13 @@ const collabData = [
 const Collaborations = () => {
   return (
     <div className="collab-section">
-      <h2 className="collab-title">COLLABORATIONS</h2>
+      <h2 className="collab-title">Work Experience</h2>
       <hr className="collab-underline" />
       <div className="collab-cards">
         {collabData.map(collab => (
           <div className="collab-card" key={collab.id}>
             <div className="collab-card-top" style={{ backgroundColor: collab.bgColor }}>
-              <img src={collab.logo} alt={collab.title} className="collab-logo" />
+            import profileImage from './image/girlscript.png';
             </div>
             <div className="collab-card-bottom">
               <p className="collab-subtitle">{collab.title}</p>

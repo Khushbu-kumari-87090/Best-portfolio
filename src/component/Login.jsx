@@ -32,7 +32,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h2>Carte Login</h2>
+      <h2>Know More</h2>
       {!isLoggedIn ? (
         <form onSubmit={handleSubmit} className="login-form">
           <input
